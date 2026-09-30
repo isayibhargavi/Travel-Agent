@@ -1,0 +1,6 @@
+{
+  "name": "Vagabond Bespoke Travel Concierge",
+  "description": "Personalized luxury travel curation powered by intelligent n8n workflow automation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
