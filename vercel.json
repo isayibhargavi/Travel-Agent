@@ -1,0 +1,19 @@
+{
+  "buildCommand": "vite build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/api/n8n/health",
+      "destination": "/api/n8n/health"
+    },
+    {
+      "source": "/api/n8n/submit",
+      "destination": "/api/n8n/submit"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
